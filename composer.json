@@ -1,0 +1,21 @@
+{
+    "name": "lwc/smartling-php",
+    "version": "0.0.1",
+    "type": "library",
+    "keywords": ["smartling", "api", "translation", "i18n"],
+    "license": "MIT",
+    "description": "PHP client for Smartling's file API",
+    "authors": [
+        {
+            "name": "Luke Cawood",
+            "email": "luke.cawood@99designs.com"
+        }
+    ],
+    "require": {
+        "guzzle/guzzle": "~3.1.1"
+    },
+    "autoload": {
+        "psr-0": { "Smartling": "lib" }
+    }
+
+}
