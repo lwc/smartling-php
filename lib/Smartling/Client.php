@@ -23,7 +23,7 @@ class Client
     const TYPE_JSON = 'json';
     const TYPE_YAML = 'yaml';
 
-    private 
+    private
         $requester,
         $apiKey,
         $projectId,
@@ -43,7 +43,7 @@ class Client
         $commands = array();
         if (is_array($options)) {
             foreach ($options as $k => $v) {
-                $commands['smartling'.$k] = $v;
+                $commands['smartling.'.$k] = $v;
             }
         }
         $request = $this->requester->post('file/upload')
