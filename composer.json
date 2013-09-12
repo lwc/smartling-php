@@ -1,6 +1,6 @@
 {
     "name": "lwc/smartling-php",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "library",
     "keywords": ["smartling", "api", "translation", "i18n"],
     "license": "MIT",
@@ -12,7 +12,7 @@
         }
     ],
     "require": {
-        "guzzle/guzzle": "~3.4.0"
+        "guzzle/guzzle": "~3.4"
     },
     "autoload": {
         "psr-0": { "Smartling": "lib" }
